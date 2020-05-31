@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-image: url(&quot;minergame/gui/dirt.jpg&quot;);" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="minergame.gui.Controller">
+   <children>
+      <MenuBar>
+        <menus>
+          <Menu mnemonicParsing="false" text="Open">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#buttonPressed" text="New Game" />
+                  <MenuItem mnemonicParsing="false" onAction="#gameSave" text="Save" />
+                  <MenuItem mnemonicParsing="false" onAction="#gameLoad" text="Load" />
+                  <MenuItem mnemonicParsing="false" onAction="#help" text="Help" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </children>
+</Pane>
